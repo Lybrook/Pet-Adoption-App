@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import PetList from './Components/PetList';
 import FavoritePets from './Components/FavotritePets';
-import NavBar from './Components/NavBar';
+import NavBar from './Components/NavBar.jsx' ;
 import PetDetailPage from './Components/PetDeatils';
 
 const API_URL = "http://localhost:4000/pets";
