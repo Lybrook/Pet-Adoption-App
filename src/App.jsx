@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import PetList from './Components/PetList';
 import FavoritePets from './Components/FavotritePets';
-import Navbar from './Components/NavBar';
+import NavBar from './Components/NavBar';
 import PetDetailPage from './Components/PetDeatils';
 
 const API_URL = "http://localhost:4000/pets";
@@ -83,7 +83,7 @@ function App() {
   return (
     <Router future={{ v7_relativeSplatPath: true, v7_startTransition: true }}> 
       <div className="App">
-        <Navbar showFavorites={showFavorites} toggleView={toggleView} />
+        <NavBar showFavorites={showFavorites} toggleView={toggleView} />
         <input 
           type="text" 
           placeholder="Search by type" 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Navbar = ({ showFavorites, toggleView }) => (
+const NavBar = ({ showFavorites, toggleView }) => (
   <nav className="navbar">
     <p>Pet Adoption Platform</p>
     <Link to="/">Home</Link>
@@ -11,4 +11,4 @@ const Navbar = ({ showFavorites, toggleView }) => (
   </nav>
 );
 
-export default Navbar;
+export default NavBar;
