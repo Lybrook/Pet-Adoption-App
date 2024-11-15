@@ -9,8 +9,6 @@ const FavoritePets = ({ favorites, onRemove }) => {
           <div key={pet.id} className="favorite-pet">
             <img src={pet.image} alt={pet.name} className="pet-image" />
             <h3>{pet.name}</h3>
-            <p>Type: {pet.type}</p>
-            <p>Age: {pet.age} years</p>
             <button onClick={() => onRemove(pet.id)}>Remove from Favorites</button>
           </div>
         ))

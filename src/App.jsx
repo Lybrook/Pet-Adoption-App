@@ -6,7 +6,7 @@ import FavoritePets from './Components/FavotritePets';
 import Navbar from './Components/NavBar';
 import PetDetailPage from './Components/PetDeatils';
 
-const API_URL = "https://json-server-backend-x08i.onrender.com/pets";
+const API_URL = "http://localhost:4000/pets";
 
 function App() {
   const [favorites, setFavorites] = useState([]);

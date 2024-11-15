@@ -9,7 +9,7 @@ const PetDetailPage = ({ pets }) => {
 
   return (
     <div className="pet-detail">
-      <img src={pet.image} alt={pet.name} className="pet-image" />
+      <img src={pet.image} alt={`${pet.name} (${pet.type.replace(",", ", ")})`} className="pet-image" />
       <h2>{pet.name}</h2>
       <p>Type: {pet.type}</p>
       <p>Age: {pet.age} years</p>

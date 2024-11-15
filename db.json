@@ -5,24 +5,48 @@
       "name": "Simba",
       "type": "dog",
       "age": 3,
-      "description": "Friendly dog looking for a loving home.",
-      "image": "/src/assets/Images/1.png"
+      "description": "Simba is a charming, friendly dog with a lot of love to give. He’s social, loves meeting new people and pets, and enjoys a daily run in the park. He would be a great companion for an active family that enjoys the outdoors.",
+      "image": "/src/assets/Images/Dog1.png"
     },
     {
       "id": "2",
-      "name": "Updated Name",
+      "name": "Puss",
       "type": "cat",
       "age": 2,
-      "description": "Independent but cuddly.",
-      "image": "/src/assets/Images/2.png"
+      "description": "This cat is independent but cuddly, preferring quiet time with people. While they love exploring their surroundings, they also enjoy cozying up on laps and being the center of attention during movie nights.",
+      "image": "/src/assets/Images/Cat1.png"
     },
     {
       "id": "3",
       "name": "Bosco",
       "type": "dog",
       "age": 4,
-      "description": "Energetic and playful.",
-      "image": "/src/assets/Images/3.png"
+      "description": "Energetic and playful, Bosco is a lively dog who needs an equally active home. He loves fetch, running, and training exercises that challenge his intelligence. Bosco’s ideal family would be one that appreciates his high energy and is ready to keep him entertained.",
+      "image": "/src/assets/Images/Dog2.png"
+    },
+    {
+      "id": "4",
+      "name": "Bella",
+      "type": "dog",
+      "age": 5,
+      "description": "Bella is a loyal and gentle soul who is great with children. She’s calm, loving, and enjoys lounging around with her family. Bella would be an excellent fit for a family looking for a relaxed, affectionate dog.",
+      "image": "/src/assets/Images/Dog3.png"
+    },
+    {
+      "id": "5",
+      "name": "Luna",
+      "type": "cat",
+      "age": 2,
+      "description": "Luna is a spirited, curious cat with a playful streak. She’s full of energy and loves exploring new places. Luna would be perfect for an active family who enjoys going on adventures and spending time outdoors.",
+      "image": "/src/assets/Images/Cat2.png"
+    },
+    {
+      "id": "6",
+      "name": "Charlie and Kitty",
+      "type": "dog, cat",
+      "age": 1,
+      "description": "Charlie and Kitty make a delightful pair—Charlie is a playful, energetic puppy who loves exploring, while Kitty is a calm, affectionate cat that enjoys observing his antics. Together, they’re looking for a home that appreciates both their personalities.",
+      "image": "/src/assets/Images/Cat and Dog1.png"
     }
   ]
 }
