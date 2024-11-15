@@ -4,11 +4,9 @@ import './App.css';
 import PetList from './Components/PetList';
 import FavoritePets from './Components/FavoritePets';
 import PetDetailPage from './Components/PetDetails';
-
-console.log("NavBar import path:", './Components/NavBar');
 import NavBar from './Components/NavBar';
 
-const API_URL = "http://localhost:4000/pets";
+const API_URL = "https://json-server-backend-x08i.onrender.com/pets";
 
 function App() {
   const [favorites, setFavorites] = useState([]);
