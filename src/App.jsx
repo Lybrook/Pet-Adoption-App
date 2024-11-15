@@ -4,7 +4,7 @@ import './App.css';
 import PetList from './Components/PetList';
 import FavoritePets from './Components/FavoritePets';
 import PetDetailPage from './Components/PetDetails';
-import NavBar from './Components/NavBar'; //Problem
+import NavBar from './Components/Navbar'; 
 
 const API_URL = "https://json-server-backend-x08i.onrender.com/pets";
 
