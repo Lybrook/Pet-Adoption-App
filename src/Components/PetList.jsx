@@ -1,18 +1,24 @@
 import React from 'react';
 import PetCard from './PetCard';
 
-const PetList = ({ pets, onFavorite, onDelete, onUpdate, }) => {
+const PetList = ({ pets = [], onFavorite, onDelete }) => {
+  if (pets.length === 0) {
+    return (
+      <div className="pet-list">
+        <p>No pets found.</p>
+      </div>
+    );
+  }
+
   return (
     <div className="pet-list">
       {pets.map(pet => (
-        <div key={pet.id}>
-          <PetCard 
-            pet={pet} 
-            onFavorite={onFavorite} 
-            onUpdate={onUpdate} 
-            onDelete={onDelete} 
-          />
-        </div>
+        <PetCard 
+          key={pet.id}
+          pet={pet} 
+          onFavorite={onFavorite} 
+          onDelete={onDelete} 
+        />
       ))}
     </div>
   );

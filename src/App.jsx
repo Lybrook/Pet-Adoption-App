@@ -91,7 +91,7 @@ function App() {
           onChange={(e) => setSearchType(e.target.value)} 
           className="search-bar" 
         />
-        <h1>PICK ME!!🥺</h1>
+        <h1>WELCOME TO THE PET SHOP</h1>
         <Routes> 
           <Route 
             path="/" 
